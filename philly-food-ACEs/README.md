@@ -20,7 +20,7 @@ Built as a project at the University of Pennsylvania.
 
 - Free Food and meal site locations: [OpenDataPhilly, Free Food Sites](https://opendataphilly.org/datasets/free-food-sites/), a partnership between Philadelphia's Office of Children and Families and local foodbanks.
 - ZIP-code Risk Index (Poverty, Education, Unemployment, Crime, ACEs composite): [Scattergood Foundation, Place Matters](https://www.scattergoodfoundation.org/think/publications/place-matters/).
-- ZIP code boundary shapefile (`Zipcodes_Poly/`).
+- ZIP code boundary shapefile (`Zipcodes_Poly`).
 
 All data used is publicly available.
 
@@ -32,7 +32,7 @@ Requires R with: `tidyverse`, `shinythemes`, `shiny`, `plyr`, `leaflet`, `dplyr`
 shiny::runApp()
 ```
 
-The app reads `place_data.csv`, `free_meal_sites.csv`, and the `Zipcodes_Poly/` shapefile via relative paths, and pulls icons from `icons/`. All four must sit alongside `app.R` for the map tab to load.
+The app reads `place_data.csv`, `free_meal_sites.csv`, and the `Zipcodes_Poly` shapefile via relative paths, and pulls icons from `icons`. All four must sit alongside `app.R` for the map tab to load.
 
 ## Limitations
 
