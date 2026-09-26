@@ -1,6 +1,6 @@
-# Data Analysis Projects
+# Data Analytics Projects
 
-A collection of standalone data analysis projects. Each folder is self-contained and independently deployable.
+A collection of standalone data analytics projects. Each folder is self-contained and independently deployable.
 
 | Project | Description | Live |
 |---|---|---|
